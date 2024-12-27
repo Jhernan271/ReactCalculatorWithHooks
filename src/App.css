@@ -1,0 +1,52 @@
+
+/*CSS style sheet for Calculator 3 component*/
+
+.header {
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(149, 158, 158);
+  height: 100vh;
+}
+
+.Calculator {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(185, 177, 177);
+  text-align: left;
+  margin: 50px;
+}
+
+input {
+  font-size: 1.2em;
+  padding: 5px;
+  margin: 10px;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 10px;
+  border: 1px solid rgb(0, 8, 255);
+}
+
+button:hover { 
+  background-color: rgb(129, 129, 139);  
+  color: white; 
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.footer {
+ background-color: rgb(149, 158, 158);
+ color: rgb(17, 17, 167);
+ text-align: left;
+ padding: 20px;
+ position: absolute;
+ bottom: 0;
+ width: 100%; 
+}
